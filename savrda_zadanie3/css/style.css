@@ -1,0 +1,202 @@
+body {
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+    
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #1b263b;
+    text-align: center;
+    padding: 10px 0;
+}
+  
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+  
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+  
+.navbar a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: bold;
+}
+  
+.navbar a:hover {
+    color: #00b4d8;
+}
+
+.uvod {
+    height: 100vh;
+    background-image: url('../img/jungle.jpg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+  
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+  
+.citat {
+    text-align: center;
+    font-style: italic;
+    padding: 40px 20px;
+    font-size: 1.3em;
+}
+  
+.obsah {
+    padding: 60px 10%;
+}
+  
+.obsah h1, .obsah h2 {
+    margin-top: 40px;
+}
+  
+.blok {
+    text-align: left;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: left;
+    background-color: #15491a;
+    border: 2px solid #3a506b;
+    color: #b4b4b4;
+}
+  
+
+  
+.blok2 {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: right;
+    background-color: #462d0c;
+    border: 2px solid #6b3a3a;
+    color: #bdbdbd;
+}
+  
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00b4d8;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+  
+.btn:hover {
+    background-color: #0077b6;
+    cursor: pointer;
+}
+  
+.galeria {
+    text-align: center;
+    padding: 60px 10%;
+}
+  
+.fotky {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+  
+.fotky img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.kont{
+    text-align: center;
+
+}
+.kontakt {
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    padding: 50px 20%;
+}
+  
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 10px;
+  margin: 40px auto;
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+label {
+  font-weight: 400;
+  color: #222;
+}
+input,
+textarea {
+  padding: 10px 14px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+  font-size: 14px;
+  resize: none;
+}
+textarea.sprava {
+  width: 80%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 8px 14px;        /* 🔹 menší padding = text bude hore */
+  border: 2px solid #9ca3af;
+  border-radius: 10px;
+  font-size: 14px;
+  resize: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  vertical-align: top;      /* 🔹 zabezpečí, že text sa začne hore */
+}
+
+
+.sprava {
+    height: 100px;           /* 🔹 výška boxu – môžeš meniť podľa potreby */
+}
+button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 100;
+  width: 120px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+  
+button:hover {
+  background-color: #2b38a0;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+.author{
+    color: #00b4d8;
+}
